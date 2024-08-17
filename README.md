@@ -14,7 +14,7 @@ We build and compare four classifier models. By using GridSearchCV and turing hy
 - The top three important features are 'cons.price.idx', 'duration' and 'nr.employed'. That means the monthly consumer price index, previous phone call duration and quarterly employed index are positively correlated to the bank marketing campaign accuracy 
 - After hyper parameters tuning, SupportVectorMachine is the best model with nonlinear kernel  but it is very slow to train
 - LogisticRegression is the best model with default parameters. It is fast to train and we get the feature coefficients 
-- KNearestNeighbors is the lowest performance classifier because it doesn't handle imbalanced dataset. However, it is the festest to fit and train the model
+- KNearestNeighbors is the lowest performance classifier because it doesn't handle imbalanced dataset. However, it is the fastest to fit and train the model
 - The hyper parameter 'class_weight' plays a very important role to improve model performance because the dataset is highly imbalanced. It works for SupportVectorMachine, LogisticRegression and DecisionTree classifiers.
 
 # Summary
